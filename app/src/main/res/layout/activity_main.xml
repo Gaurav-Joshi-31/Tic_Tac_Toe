@@ -27,6 +27,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
+            android:contentDescription="@string/todo10"
             android:onClick="dropIn"
             android:tag="0" />
 
@@ -35,7 +36,8 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:contentDescription="@string/todo11"
             android:onClick="dropIn"
             android:tag="1" />
 
@@ -44,7 +46,8 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/a1"
             android:onClick="dropIn"
             android:tag="2" />
 
@@ -54,6 +57,7 @@
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:layout_marginTop="13dp"
+            android:contentDescription="@string/todo12"
             android:onClick="dropIn"
             android:tag="3" />
 
@@ -62,8 +66,9 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
             android:layout_marginTop="13dp"
+            android:contentDescription="@string/todo13"
             android:onClick="dropIn"
             android:tag="4" />
 
@@ -72,7 +77,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="13dp"
             android:onClick="dropIn"
             android:tag="5" />
@@ -83,6 +88,7 @@
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:layout_marginTop="16dp"
+            android:contentDescription="@string/todo14"
             android:onClick="dropIn"
             android:tag="6" />
 
@@ -91,8 +97,9 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
             android:layout_marginTop="16dp"
+            android:contentDescription="@string/todo16"
             android:onClick="dropIn"
             android:tag="7" />
 
@@ -101,8 +108,9 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
+            android:contentDescription="@string/todo15"
             android:onClick="dropIn"
             android:tag="8" />
 
@@ -113,7 +121,7 @@
         android:id="@+id/winnerTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/textview"
         android:textSize="30sp"
         android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/gridLayout"
@@ -128,7 +136,7 @@
         android:layout_marginTop="52dp"
         android:backgroundTint="?android:attr/colorFocusedHighlight"
         android:onClick="playAgain"
-        android:text="Play Again"
+        android:text="@string/play_again"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
